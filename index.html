@@ -26,8 +26,8 @@
 </div>
 
 <div class="searchbar">
-  <input placeholder="Search MyTube">
-  <button>Search</button>
+  <input id="searchInput" placeholder="Search MyTube">
+  <button onclick="searchSite()">Search</button>
 </div>
 
 <div class="page">
@@ -52,11 +52,6 @@
       <div id="chat" class="chat"></div>
     </div>
 
-    <div class="embed">
-      <div class="embed-title">Embed this video</div>
-      <textarea id="embedcode"></textarea>
-    </div>
-
   </div>
 
   <div class="right">
@@ -64,8 +59,9 @@
     <div class="box">
       <div class="title">Categories</div>
       <div>Gaming</div>
-      <div>Comedy</div>
-      <div>Music</div>
+      <div>Chaos</div>
+      <div>Horror</div>
+      <div>Survival</div>
     </div>
 
     <div class="box">
@@ -76,7 +72,15 @@
       </div>
 
       <div class="video" onclick="loadVideo('snake')">
-        ▶ snake go brrrrr in snake XP ultra
+        ▶ snake XP ultra
+      </div>
+
+      <div class="video" onclick="loadVideo('lidar')">
+        ▶ lidar scawy
+      </div>
+
+      <div class="video" onclick="loadVideo('vector')">
+        ▶ VECTOR SURVIVAL IS THE KING OF GAMES
       </div>
 
     </div>
